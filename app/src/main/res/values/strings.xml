@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpendifyApp</string>
+    <string name="badge_icon">Badge icon</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/Home_Button"
+        android:icon="@drawable/icons_home"/>
+
+
+    <item android:title="Category"
+        android:id="@+id/Add_Category"
+        android:icon="@drawable/add_category"/>
+
+
+    <item android:title="Expense"
+        android:id="@+id/Add_Expense"
+        android:icon="@drawable/add_expense"/>
+
+    <item android:title="Awards"
+        android:id="@+id/Add_Badges"
+        android:icon="@drawable/award_badge"/>
+</menu>
