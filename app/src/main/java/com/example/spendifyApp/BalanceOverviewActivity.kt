@@ -36,6 +36,7 @@ import com.github.mikephil.charting.animation.Easing
 import android.util.Log
 import androidx.core.content.ContextCompat
 import android.content.res.ColorStateList
+import com.example.spendifyApp.ExpenseActivity
 import com.example.spendifyApp.databinding.ActivityBalanceOverviewBinding
 
 
@@ -230,6 +231,7 @@ class BalanceOverviewActivity : AppCompatActivity() {
                         "Error loading data: ${e.message}",
                         Toast.LENGTH_LONG
                     ).show()
+                    unlockBadge(this@BalanceOverviewActivity,userId, "summary viewer")
                 }
             }
         }

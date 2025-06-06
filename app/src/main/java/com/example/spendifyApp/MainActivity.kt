@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.spendifyApp.ExpenseActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.example.spendifyApp.databinding.ActivityMainBinding
 
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, SignInActivity::class.java))
             finish()
         } else {
+
             // Show welcome message
 
         }
