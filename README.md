@@ -46,3 +46,4 @@ When the "Generate Report" button is clicked, Spendify compiles all relevant dat
 
 ---
 
+Youtube Demonstration Video Link: https://youtube.com/shorts/3pKHKajCJYc?feature=share 
